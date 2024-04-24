@@ -7,7 +7,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      image: backend-discovery-app
     ports:
       - 8761
     networks:
