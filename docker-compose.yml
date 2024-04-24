@@ -3,6 +3,7 @@ version: '3'
 services:
 
   discovery-app:
+    container_name: discovery-app
     build:
       context: .
       dockerfile: Dockerfile
