@@ -2,8 +2,7 @@ version: '3'
 
 services:
 
-  spring-app:
-    container_name: discovery-app
+  discovery-app:
     build:
       context: .
       dockerfile: Dockerfile
