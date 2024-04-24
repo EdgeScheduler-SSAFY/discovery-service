@@ -15,7 +15,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka.pickitup.online:8761/eureka/
+      defaultZone: http://eureka.pickitup.online/eureka/
 ---
 
 #spring:
