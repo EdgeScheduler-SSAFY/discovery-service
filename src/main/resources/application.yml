@@ -5,17 +5,14 @@ spring:
   application:
     name: discoveryservice
 
-#eureka:
-#  client:
-#    register-with-eureka: false
-#    fetch-registry: false
----
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    service-url:
-      defaultZone: http://eureka.pickitup.online/eureka
+#    service-url:
+#      defaultZone: http://eureka.pickitup.online/eureka
+  instance:
+    hostname: 43.202.4.152
 ---
 
 #spring:
