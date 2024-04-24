@@ -1,5 +1,5 @@
-#server:
-#  port: 8761
+server:
+  port: 8761
 
 spring:
   application:
@@ -12,8 +12,8 @@ eureka:
 #    service-url:
 #      defaultZone: http://eureka.pickitup.online/eureka
   instance:
-#    hostname: 43.202.4.152
-    hostname: http://eureka.pickitup.online
+    hostname: 43.202.4.152
+#    hostname: http://eureka.pickitup.online
 ---
 
 #spring:
