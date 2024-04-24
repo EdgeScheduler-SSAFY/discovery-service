@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
+    expose:
       - 8761
     networks:
       - my-network
