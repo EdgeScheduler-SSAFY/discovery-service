@@ -2,13 +2,13 @@ version: '3'
 
 services:
 
-  spring-app:
+  discovery-app:
     container_name: discovery-app
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8761
+      - "8761:8761"
     networks:
       - my-network
 

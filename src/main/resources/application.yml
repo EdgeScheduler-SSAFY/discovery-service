@@ -9,7 +9,11 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
+#    service-url:
+#      defaultZone: http://eureka.pickitup.online/eureka
+  instance:
+    hostname: 43.202.4.152
+#    hostname: http://eureka.pickitup.online
 ---
 
 #spring:
